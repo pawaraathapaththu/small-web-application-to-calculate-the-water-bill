@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type=text], input[type=number], select[id=month], input[type=email], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.main_buttons {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.main_buttons li {
+    margin: 10px;
+}
+
+.main_buttons li a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    width: 20%;
+    margin: 5px 5px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_buttons li a:hover {
+    background-color: #0056b3;
+}
+
+.logout-button {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: none;
+    padding: 2px 6px;
+}
+
+.logout-button:hover {
+    background-color: darkred;
+}
+
+.back-button {
+    background-color:#c27ba0;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: none;
+    padding: 2px 6px;
+    }
+
+.back-button:hover {
+    background-color: green;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px auto; 
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td:nth-child(2) {
+    text-align: right;
+}
+
